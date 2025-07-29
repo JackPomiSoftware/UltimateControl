@@ -39,7 +39,7 @@ namespace Ultimate_Control
 
         private void linkVisit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://ultimatecontrol.github.io/");
+            System.Diagnostics.Process.Start("https://jackpomisoftware.github.io/uc");
         }
 
         private void buttonAboutOK_Click(object sender, EventArgs e)

@@ -338,7 +338,7 @@ namespace Ultimate_Control
 
         private void visitOnlineHelpCenterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://ultimatecontrol.github.io/doc/");
+            System.Diagnostics.Process.Start("https://jackpomisoftware.github.io/uc/doc/");
         }
 
         private void sendFeedbackToolStripMenuItem_Click(object sender, EventArgs e)

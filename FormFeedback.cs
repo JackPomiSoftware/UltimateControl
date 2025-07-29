@@ -24,7 +24,7 @@ namespace Ultimate_Control
 
         private void linkWebsite_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://ultimatecontrol.github.io/");
+            System.Diagnostics.Process.Start("https://jackpomisoftware.github.io/uc");
         }
 
         private void linkGit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

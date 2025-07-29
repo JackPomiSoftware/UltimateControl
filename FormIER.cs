@@ -215,7 +215,7 @@ namespace Ultimate_Control
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://ultimatecontrol.github.io/doc/");
+            System.Diagnostics.Process.Start("https://jackpomisoftware.github.io/uc/doc/");
         }
 
         private void BHOon_CheckedChanged(object sender, EventArgs e)
