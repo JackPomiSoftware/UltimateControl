@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDE65D09-6063-49D8-B910-CF317361B4C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ultimate_Control</RootNamespace>
+    <AssemblyName>Ultimate Control</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>8.0</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>uc_i1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.CodeDom, Version=9.0.0.7, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.CodeDom.9.0.7\lib\net462\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLANG.Designer.cs">
+      <DependentUpon>FormLANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLAP.Designer.cs">
+      <DependentUpon>FormLAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPER.Designer.cs">
+      <DependentUpon>FormPER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSEC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSEC.Designer.cs">
+      <DependentUpon>FormSEC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGEN.Designer.cs">
+      <DependentUpon>FormGEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFeedback.Designer.cs">
+      <DependentUpon>FormFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIER.Designer.cs">
+      <DependentUpon>FormIER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\KeyDecoder.cs" />
+    <EmbeddedResource Include="FormLANG.resx">
+      <DependentUpon>FormLANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLAP.resx">
+      <DependentUpon>FormLAP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPER.resx">
+      <DependentUpon>FormPER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSEC.resx">
+      <DependentUpon>FormSEC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGEN.resx">
+      <DependentUpon>FormGEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFeedback.resx">
+      <DependentUpon>FormFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIER.resx">
+      <DependentUpon>FormIER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.ico" />
+    <EmbeddedResource Include="Resources\Images\017.png" />
+    <EmbeddedResource Include="Resources\Images\017s.png" />
+    <EmbeddedResource Include="Resources\Images\039.png" />
+    <EmbeddedResource Include="Resources\Images\039s.png" />
+    <EmbeddedResource Include="Resources\Images\070.png" />
+    <EmbeddedResource Include="Resources\Images\070s.png" />
+    <EmbeddedResource Include="Resources\Images\168.png" />
+    <EmbeddedResource Include="Resources\Images\178.png" />
+    <EmbeddedResource Include="Resources\Images\178s.png" />
+    <EmbeddedResource Include="Resources\Images\180.png" />
+    <EmbeddedResource Include="Resources\Images\180s.png" />
+    <EmbeddedResource Include="Resources\Images\212.png" />
+    <EmbeddedResource Include="Resources\Images\212s.png" />
+    <EmbeddedResource Include="Resources\Images\240.png" />
+    <EmbeddedResource Include="Resources\Images\240s.png" />
+    <EmbeddedResource Include="Resources\Images\315.png" />
+    <EmbeddedResource Include="Resources\Images\438.png" />
+    <EmbeddedResource Include="Resources\Images\438s.png" />
+    <EmbeddedResource Include="Resources\Images\512.png" />
+    <EmbeddedResource Include="Resources\Images\512s.png" />
+    <EmbeddedResource Include="Resources\Images\534.png" />
+    <EmbeddedResource Include="Resources\Images\534s.png" />
+    <EmbeddedResource Include="Resources\Images\535.png" />
+    <EmbeddedResource Include="Resources\Images\535s.png" />
+    <EmbeddedResource Include="Resources\Images\button_hover_s.png" />
+    <None Include="Resources\status panel on.png" />
+    <None Include="Resources\status icon on.png" />
+    <Content Include="shellbrd_1075.ico" />
+    <Content Include="uc_i1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,21 @@
+F:\Users\Jack Pomi\source\repos\Ultimate Control\bin\x64\Debug\Ultimate Control.exe.config
+F:\Users\Jack Pomi\source\repos\Ultimate Control\bin\x64\Debug\Ultimate Control.exe
+F:\Users\Jack Pomi\source\repos\Ultimate Control\bin\x64\Debug\Ultimate Control.pdb
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate Control.csproj.AssemblyReference.cache
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormLAP.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormSEC.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormGEN.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.Form1.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormFeedback.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormAbout.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormIER.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.Properties.Resources.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate Control.csproj.GenerateResource.cache
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate Control.csproj.CoreCompileInputs.cache
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate Control.exe
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate Control.pdb
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormLanguage.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate_Control.FormPER.resources
+F:\Users\Jack Pomi\source\repos\Ultimate Control\bin\x64\Debug\System.CodeDom.dll
+F:\Users\Jack Pomi\source\repos\Ultimate Control\bin\x64\Debug\System.CodeDom.xml
+F:\Users\Jack Pomi\source\repos\Ultimate Control\obj\x64\Debug\Ultimate.1C784429.Up2Date
