@@ -1498,7 +1498,7 @@ namespace Ultimate_Control
 
         private void linkOnline_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://jackpomisoftware.github.io/uc/doc/");
+            System.Diagnostics.Process.Start("https://jackpomisoftware.github.io/uc/doc/security-center/");
         }
     }
 }

@@ -51,7 +51,6 @@
             this.StartHome = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.HomPag = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.usecur = new System.Windows.Forms.Button();
@@ -354,7 +353,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.pictureBox2);
-            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.HomPag);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.usecur);
@@ -377,24 +375,15 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Enabled = false;
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label7.Location = new System.Drawing.Point(41, 58);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(211, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Multitab home pages are not yet supported.";
-            // 
             // HomPag
             // 
             this.HomPag.Location = new System.Drawing.Point(45, 35);
+            this.HomPag.Multiline = true;
             this.HomPag.Name = "HomPag";
             this.HomPag.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.HomPag.Size = new System.Drawing.Size(327, 20);
+            this.HomPag.Size = new System.Drawing.Size(327, 55);
             this.HomPag.TabIndex = 2;
+            this.HomPag.WordWrap = false;
             // 
             // label6
             // 
@@ -413,7 +402,7 @@
             this.usecur.Name = "usecur";
             this.usecur.Size = new System.Drawing.Size(75, 23);
             this.usecur.TabIndex = 3;
-            this.usecur.Text = "Use current";
+            this.usecur.Text = "Set current";
             this.usecur.UseVisualStyleBackColor = true;
             this.usecur.Click += new System.EventHandler(this.usecur_Click);
             // 
@@ -630,7 +619,6 @@
         private System.Windows.Forms.RadioButton BHOon;
         private System.Windows.Forms.LinkLabel linkOnline;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label DefStatus;

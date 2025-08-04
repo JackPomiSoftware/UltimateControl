@@ -56,7 +56,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(188, 26);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Version: 0.9.0.gallimimus_beta.020525\r\nRelease branch: Pre-release (beta)";
+            this.label1.Text = "Version: 0.9.1.gallimimus_beta.020525\r\nRelease branch: Pre-release (beta)";
             // 
             // textBox1
             // 
